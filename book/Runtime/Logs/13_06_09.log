@@ -1,0 +1,68 @@
+[ 2013-06-09T16:59:33+08:00 ] 127.0.0.1 /Thinktest/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.000443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000496s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000188s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000201s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000118s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000372s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2013-06-09T17:18:18+08:00 ] 127.0.0.1 /Thinktest/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+
+[ 2013-06-09T17:19:28+08:00 ] 127.0.0.1 /Thinktest/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+
+[ 2013-06-09T17:19:29+08:00 ] 127.0.0.1 /Thinktest/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+
+[ 2013-06-09T17:23:21+08:00 ] 127.0.0.1 /Thinktest/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000634s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+
+[ 2013-06-09T17:25:33+08:00 ] 127.0.0.1 /Thinktest/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+
+[ 2013-06-09T17:27:44+08:00 ] 127.0.0.1 /Thinktest/?m=module&a=action&var=value
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+ERR: 无法加载模块:module
+
+[ 2013-06-09T17:29:09+08:00 ] 127.0.0.1 /Thinktest/?m=module&a=action&var=value
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载模块:module
+
+[ 2013-06-09T17:29:10+08:00 ] 127.0.0.1 /Thinktest/?m=module&a=action&var=value
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+ERR: 无法加载模块:module
+
+[ 2013-06-09T17:30:43+08:00 ] 127.0.0.1 /Thinktest/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+
